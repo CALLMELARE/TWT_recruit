@@ -1,7 +1,7 @@
 <!--
  * @Author: TWT Studio
  * @Date: 2021-03-23 18:49:19
- * @LastEditTime: 2021-03-23 20:03:25
+ * @LastEditTime: 2021-03-23 20:23:01
  * @Description: Description of the file
 -->
 <template>
@@ -14,6 +14,5 @@
 // @ is an alias to /src
 export default {
   name: 'Home',
-
 }
 </script>
