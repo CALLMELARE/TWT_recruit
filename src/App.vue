@@ -5,11 +5,21 @@
  * @Description: App.vue
 -->
 <template>
-  <router-view></router-view>
+  <div class="layout">
+    <keep-alive>
+      <Nav />
+    </keep-alive>
+
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
+import Nav from "@/components/Navigation";
 export default {
   name: "App",
+  components: {
+    Nav
+  }
 };
 </script>

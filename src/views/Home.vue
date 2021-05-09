@@ -6,7 +6,7 @@
 -->
 <template>
   <div class="home">
-    <v-btn>init</v-btn>
+    23333
   </div>
 </template>
 
