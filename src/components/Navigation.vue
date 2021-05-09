@@ -83,6 +83,8 @@ export default {
   background: #ffffff;
   height: 60px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
 
   .bar-container {
     position: relative;

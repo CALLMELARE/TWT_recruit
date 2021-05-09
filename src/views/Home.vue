@@ -6,13 +6,23 @@
 -->
 <template>
   <div class="home">
-    23333
+    
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
 export default {
-  name: 'Home',
-}
+  name: "Home",
+  components: {
+  }
+};
 </script>
+
+<style lang="scss" scoped>
+.home{
+  width: 100%;
+  height: 4000px;
+  max-width: 1120px;
+  margin:  0 auto;
+}
+</style>

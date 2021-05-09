@@ -5,7 +5,7 @@
  * @Description: App.vue
 -->
 <template>
-  <div class="layout">
+  <div class="main-layout">
     <keep-alive>
       <Nav />
     </keep-alive>
@@ -26,7 +26,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.layout {
+.main-layout {
   margin: 0;
   width: 100%;
   height: 100%;
