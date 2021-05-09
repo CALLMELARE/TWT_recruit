@@ -9,8 +9,9 @@
     <keep-alive>
       <Nav />
     </keep-alive>
-
-    <router-view></router-view>
+    <div class="overall-container">
+      <router-view />
+    </div>
   </div>
 </template>
 
@@ -23,3 +24,15 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.layout {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  .overall-container {
+    margin: 0 auto;
+    background: #f2f2f2;
+  }
+}
+</style>
